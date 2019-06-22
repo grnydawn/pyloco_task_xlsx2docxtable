@@ -30,17 +30,19 @@ To install 'xlsx2docxtable' task, run the following 'pyloco' command.  ::
 Command-line syntax
 -------------------
 
-usage: pyloco xlsx2docxtable.py [-h] [-t type] [-o OUTPUT]
+usage: pyloco xlsx2docxtable [-h] [-t type] [-o OUTPUT]
                                 [--general-arguments]
                                 xlsx docx 
 
 converts Microsoft Excel file to a MS Word file.
 
 positional arguments:
+
   xlsx                  input xlsx file
   docx                  input docx file
 
 optional arguments:
+
   -h, --help            show this help message and exit
   -t type, --type type  input file format (default='xlsx')
   -o OUTPUT, --output OUTPUT
