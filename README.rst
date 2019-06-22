@@ -10,6 +10,23 @@ converts Microsoft Excel file to a MS Word file.
 
 'xlsx2docxtable' task converts a sheet of Microsoft Excel file to a table in a MS Word file.
 
+Installation
+------------
+
+Before installing 'xlsx2docxtable' task, please make sure that 'pyloco' is installed.
+Run the following command if you need to install 'pyloco'. ::
+
+    >>> pip install pyloco
+
+Or, if 'pyloco' is already installed, upgrade 'pyloco' with the following command ::
+
+    >>> pip install -U pyloco
+
+To install 'xlsx2docxtable' task, run the following 'pyloco' command.  ::
+
+    >>> pyloco install xlsx2docxtable
+
+
 Command-line syntax
 -------------------
 
