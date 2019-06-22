@@ -8,7 +8,7 @@ version: 0.1.0
 
 converts Microsoft Excel file to a MS Word file.
 
-'xlsx2docxtable' task converts a sheet of Microsoft Excel file to a table in a MS Word file.
+'xlsx2docxtable' task converts sheets of Microsoft Excel file to tables in a MS Word file.
 
 Installation
 ------------
@@ -60,13 +60,13 @@ Example(s)
 Current version of the task assumes that an input Excel file is generated
 by 'docxtable2xlsx' from an input Word file.
 
-Follwoing command reads tables.xlsx Excel file and my.docx MS word file,
-and convert Excel sheets in the file tables.xlsx to tables of MS Word file of out.docx. ::
+Follwoing command reads "tables.xlsx" Excel file and "my.docx" MS word file,
+and convert sheets in "tables.xlsx" to tables of MS Word in "out.docx". ::
 
     >>> pyloco xlsx2docxtable tables.xlsx my.docx -o out.docx
     out.docx 
 
 Follwoing command reads tables.csv CSV file instead of Excel file in above example. ::
 
-    >>> pyloco xlsx2docxtable tables.csv my.docx -o out.docx
+    >>> pyloco xlsx2docxtable tables.csv my.docx -t csv -o out.docx
     out.docx
