@@ -37,8 +37,8 @@ usage: pyloco xlsx2docxtable [-h] [-t type] [-o OUTPUT]
 converts Microsoft Excel file to a MS Word file.
 
 positional arguments:
-
   xlsx                  input xlsx file
+
   docx                  input docx file
 
 optional arguments:
